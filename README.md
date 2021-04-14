@@ -93,4 +93,7 @@ http://localhost:8080/users/page?page=1&size=12
 
 (Page sort) Ordenação de páginas
 http://localhost:8080/users/page?page=1&size=12&sort=name
+
+(Page sort) Ordenação de páginas
+http://localhost:8080/users/page?page=1&size=12&sort=name,desc
 ```
