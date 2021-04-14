@@ -87,4 +87,7 @@ Page<User> findByNameContainingIgnoreCase(String name, Pageable pageable);
 Postman
 (Get request) Requisições Get
 http://localhost:8080/users/page?page=1
+
+(Page size=12) 12 por Página
+http://localhost:8080/users/page?page=1&size=12
 ```
