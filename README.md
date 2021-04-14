@@ -82,3 +82,9 @@ Page<User> findBySalaryBetween(Double minSalary, Double maxSalary, Pageable page
 
 Page<User> findByNameContainingIgnoreCase(String name, Pageable pageable);
 ```
+
+```
+Postman
+(Get request) Requisições Get
+http://localhost:8080/users/page?page=1
+```
